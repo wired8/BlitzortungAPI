@@ -171,7 +171,8 @@ export class Client extends EventEmitter {
             west: area.from.longitude,
             east: area.to.longitude,
             north: area.from.latitude,
-            south: area.to.latitude
+            south: area.to.latitude,
+            referrer: "map.blitzortung.org"
         });
     }
 
